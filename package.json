@@ -1,0 +1,19 @@
+{
+  "name": "wealthschema-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for WealthSchema: cited U.S. financial-planning figures (IRS, SSA, CMS), synthetic household samples, and an AI financial-advice benchmark.",
+  "license": "MIT",
+  "type": "module",
+  "bin": { "wealthschema-mcp": "index.js" },
+  "files": ["index.js"],
+  "engines": { "node": ">=18" },
+  "keywords": ["mcp", "model-context-protocol", "finance", "tax", "financial-planning", "irs"],
+  "homepage": "https://www.wealthschema.com/for-agents",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  }
+}
