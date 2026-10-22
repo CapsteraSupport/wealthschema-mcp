@@ -10,7 +10,7 @@
   "keywords": ["mcp", "model-context-protocol", "finance", "tax", "financial-planning", "irs"],
   "homepage": "https://www.wealthschema.com/for-agents",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.1"
+    "@modelcontextprotocol/sdk": "^1.32.0"
   },
   "scripts": {
     "start": "node index.js",
